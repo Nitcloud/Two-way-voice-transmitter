@@ -18,8 +18,7 @@ wire    clk_10m;
 wire    clk_50m;
 
 wire    locked;
-CLK_Global #
-(
+CLK_Global # (
     .CLKIN_PERIOD(20),
     .Mult(20),
     .DIVCLK_DIV(1),
@@ -35,9 +34,7 @@ CLK_Global #
 
     .CLKOUT3_DIV(20),
     .CLK3_PHASE(0.0)
-)
-CLK_Global_u
-(
+) CLK_Global_u (
     .clk_in(sys_clk),
     .rst_n(1'b1),
 
@@ -82,27 +79,25 @@ Audio_Handle Audio_Handle_u(
 
     .Audio_CH1(Audio_wave_a),
     .Audio_CH2(Audio_wave_b),
-    .Move_Fre_SIG(0),
+    .Move_Fre_SIG(Move_wave),
 
     .Module_SIG(Module_SIG),
     .Fre_word(Fre_word)
 );
 
 wire        [11:0] FM_wave;
-FM_Module_V2 #
-(
+FM_Module #(
     .INPUT_WIDTH(12),
     .PHASE_WIDTH(32),
     .OUTPUT_WIDTH(12)
-)
-FM_Module_V2_u
-(
+) FM_Module_u (
     .clk_in(clk_500m),
     .RST(1'd0),
     .wave_in(Module_SIG),
     .move_fre(32'd105),          //(fre*1048576)/clk_in/1000000  //50k
     .center_fre(Fre_word),  //48.5m
-    .FM_OUT(FM_OUT)
+    .FM_wave(FM_wave)
 );
-// assign FM_OUT = FM_wave[11];
+assign FM_OUT = FM_wave[11];
+
 endmodule

@@ -1,6 +1,5 @@
 `timescale 1ns / 1ps
-module Audio_Handle
-(
+module Audio_Handle (
     input         clk_in,
     input         RST,
 
@@ -14,13 +13,11 @@ module Audio_Handle
 
 /***************************************************************************/
 wire        [11:0] AM_wave;
-AM_Module #
-(
+AM_Module #(
     .INPUT_WIDTH(12),
     .PHASE_WIDTH(32),
     .OUTPUT_WIDTH(12)
-)
-AM_Module_u(
+) AM_Module_u (
     .clk_in(clk_in),
     .RST(RST),
     .wave_in(Audio_CH2),
@@ -61,4 +58,5 @@ always @(posedge clk_in) begin
 	end
 end
 assign Fre_word = Fre_word_r;
+
 endmodule

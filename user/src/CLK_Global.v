@@ -37,8 +37,7 @@ CLK_Global_u
 ); 
 *****************************************************************************/
 `timescale 1ns / 1ps
-module CLK_Global
-(
+module CLK_Global(
     input     clk_in,
     input     rst_n,
 

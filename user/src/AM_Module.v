@@ -16,13 +16,11 @@ AM_Module_V2_u(
 );
 ***************************************************************************/
 `timescale 1ns / 1ps
-module AM_Module #
-(
+module AM_Module #(
     parameter INPUT_WIDTH  = 12,
     parameter PHASE_WIDTH  = 32,
     parameter OUTPUT_WIDTH = 12
-)
-(
+) (
     input                         clk_in,
     input                         RST,
     input  [INPUT_WIDTH - 1 : 0]  wave_in,
