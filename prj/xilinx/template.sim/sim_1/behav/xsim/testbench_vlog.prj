@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../user/src/AM_Module.v" \
+"../../../../../../user/src/Audio_Handle.v" \
+"../../../../../../user/sim/DDS_Gen.v" \
+"../../../../../../user/src/FM_Module.v" \
+"../../../../../../user/sim/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
