@@ -1,16 +1,14 @@
 `timescale 1ns / 1ps
-module FM_Module #
-(
+module FM_Modulate #(
     parameter INPUT_WIDTH  = 12,
     parameter PHASE_WIDTH  = 32,
     parameter OUTPUT_WIDTH = 12
-)
-(
+) (
     input                                       clk_in,
     input                                       RST,
     input  [INPUT_WIDTH  - 1 : 0]               wave_in,
-    input  [PHASE_WIDTH  - INPUT_WIDTH - 1 : 0] move_fre,
-    input  [PHASE_WIDTH  - 1 : 0]               center_fre,
+    input  [PHASE_WIDTH  - INPUT_WIDTH - 1 : 0] move_fre,   //(fre*1048576)/clk_in/1000000
+    input  [PHASE_WIDTH  - 1 : 0]               center_fre, //(fre*4294967296)/clk_in/1000000
     output [OUTPUT_WIDTH - 1 : 0]               FM_wave
 );
 

@@ -1,22 +1,5 @@
-/***************************************************************************
-wire        [11:0] AM_wave;
-AM_Module_V2 #
-(
-    .INPUT_WIDTH(12),
-    .PHASE_WIDTH(32),
-    .OUTPUT_WIDTH(12)
-)
-AM_Module_V2_u(
-    .clk_in(clk_sys),
-    .RST(1'b0),
-    .wave_in(sin_wave),
-    .module_deep(16'd32768),       //(2^16-1)*percent
-    .center_fre(32'd229780750),    //(fre*4294967296)/clk_in/1000000
-    .AM_wave(AM_wave)
-);
-***************************************************************************/
 `timescale 1ns / 1ps
-module AM_Module #(
+module AM_Modulate #(
     parameter INPUT_WIDTH  = 12,
     parameter PHASE_WIDTH  = 32,
     parameter OUTPUT_WIDTH = 12
@@ -24,10 +7,12 @@ module AM_Module #(
     input                         clk_in,
     input                         RST,
     input  [INPUT_WIDTH - 1 : 0]  wave_in,
-    input  [15:0]                 module_deep,
-    input  [PHASE_WIDTH - 1 : 0]  center_fre,
+    input  [15:0]                 module_deep, //(2^16-1)*percent
+    input  [PHASE_WIDTH - 1 : 0]  center_fre,  //(fre*4294967296)/clk_in/1000000
     output [OUTPUT_WIDTH - 1 : 0] AM_wave
 );
+
+
 
 reg        [INPUT_WIDTH  - 1 : 0] wave_in_r = 0;
 always @(posedge clk_in) begin

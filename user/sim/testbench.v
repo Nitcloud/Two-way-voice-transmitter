@@ -58,11 +58,11 @@ Audio_Handle Audio_Handle_u(
 );
 
 wire        [11:0] FM_wave;
-FM_Module #(
+FM_Modulate #(
     .INPUT_WIDTH(12),
     .PHASE_WIDTH(32),
     .OUTPUT_WIDTH(12)
-) FM_Module_u (
+) FM_Modulate_u (
     .clk_in(clk_main),
     .RST(~sys_rst_n),
     .wave_in(Module_SIG),

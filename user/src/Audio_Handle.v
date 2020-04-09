@@ -13,11 +13,11 @@ module Audio_Handle (
 
 /***************************************************************************/
 wire        [11:0] AM_wave;
-AM_Module #(
+AM_Modulate #(
     .INPUT_WIDTH(12),
     .PHASE_WIDTH(32),
     .OUTPUT_WIDTH(12)
-) AM_Module_u (
+) AM_Modulate_u (
     .clk_in(clk_in),
     .RST(RST),
     .wave_in(Audio_CH2),
