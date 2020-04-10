@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Fri Apr  3 15:57:53 2020
+| Date         : Fri Apr 10 20:23:23 2020
 | Host         : DESKTOP-8P8R3S1 running 64-bit major release  (build 9200)
 | Command      : report_drc -file TOP_drc_routed.rpt -pb TOP_drc_routed.pb -rpx TOP_drc_routed.rpx
 | Design       : TOP
@@ -54,7 +54,7 @@ Related violations: <none>
 
 DPIP-1#2 Warning
 Input pipelining  
-DSP FM_Module_u/data_r2_reg input FM_Module_u/data_r2_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+DSP FM_Modulate_u/data_r2_reg input FM_Modulate_u/data_r2_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
 Related violations: <none>
 
 

@@ -15,9 +15,9 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 6312 
+INFO: Helper process launched with PID 16512 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 373.160 ; gain = 101.383
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 373.047 ; gain = 101.391
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'TOP' [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/TOP.v:1]
 INFO: [Synth 8-6157] synthesizing module 'CLK_Global' [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/CLK_Global.v:40]
@@ -96,26 +96,26 @@ INFO: [Synth 8-6157] synthesizing module 'AD9226' [D:/project/FPGA/My_FPGA/TCL_p
 	Parameter CH_offset bound to: 32'sb00000000000000000000000000011011 
 INFO: [Synth 8-6155] done synthesizing module 'AD9226' (5#1) [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/AD9226.v:1]
 INFO: [Synth 8-6157] synthesizing module 'Audio_Handle' [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/Audio_Handle.v:2]
-INFO: [Synth 8-6157] synthesizing module 'AM_Module' [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/AM_Module.v:19]
+INFO: [Synth 8-6157] synthesizing module 'AM_Modulate' [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/AM_Modulate.v:2]
 	Parameter INPUT_WIDTH bound to: 12 - type: integer 
 	Parameter PHASE_WIDTH bound to: 32 - type: integer 
 	Parameter OUTPUT_WIDTH bound to: 12 - type: integer 
-INFO: [Synth 8-226] default block is never used [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/AM_Module.v:84]
-INFO: [Synth 8-226] default block is never used [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/AM_Module.v:95]
-INFO: [Synth 8-226] default block is never used [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/AM_Module.v:358]
-INFO: [Synth 8-6155] done synthesizing module 'AM_Module' (6#1) [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/AM_Module.v:19]
+INFO: [Synth 8-226] default block is never used [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/AM_Modulate.v:69]
+INFO: [Synth 8-226] default block is never used [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/AM_Modulate.v:80]
+INFO: [Synth 8-226] default block is never used [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/AM_Modulate.v:343]
+INFO: [Synth 8-6155] done synthesizing module 'AM_Modulate' (6#1) [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/AM_Modulate.v:2]
 INFO: [Synth 8-6155] done synthesizing module 'Audio_Handle' (7#1) [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/Audio_Handle.v:2]
-INFO: [Synth 8-6157] synthesizing module 'FM_Module' [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/FM_Module.v:2]
+INFO: [Synth 8-6157] synthesizing module 'FM_Modulate' [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/FM_Modulate.v:2]
 	Parameter INPUT_WIDTH bound to: 12 - type: integer 
 	Parameter PHASE_WIDTH bound to: 32 - type: integer 
 	Parameter OUTPUT_WIDTH bound to: 12 - type: integer 
-INFO: [Synth 8-226] default block is never used [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/FM_Module.v:79]
-INFO: [Synth 8-226] default block is never used [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/FM_Module.v:90]
-INFO: [Synth 8-226] default block is never used [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/FM_Module.v:353]
-INFO: [Synth 8-6155] done synthesizing module 'FM_Module' (8#1) [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/FM_Module.v:2]
+INFO: [Synth 8-226] default block is never used [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/FM_Modulate.v:77]
+INFO: [Synth 8-226] default block is never used [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/FM_Modulate.v:88]
+INFO: [Synth 8-226] default block is never used [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/FM_Modulate.v:351]
+INFO: [Synth 8-6155] done synthesizing module 'FM_Modulate' (8#1) [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/FM_Modulate.v:2]
 INFO: [Synth 8-6155] done synthesizing module 'TOP' (9#1) [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/TOP.v:1]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 428.813 ; gain = 157.035
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 428.813 ; gain = 157.156
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -128,13 +128,13 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 428.813 ; gain = 157.035
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 428.813 ; gain = 157.156
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 428.813 ; gain = 157.035
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 428.813 ; gain = 157.156
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
 INFO: [Device 21-403] Loading part xc7a35tftg256-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
@@ -145,33 +145,33 @@ Finished Parsing XDC File [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/data/MAP.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TOP_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/TOP_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 INFO: [Timing 38-2] Deriving generated clocks
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 765.813 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 767.195 ; gain = 0.000
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 765.813 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 767.195 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 765.813 ; gain = 0.000
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 765.813 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 767.195 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 767.195 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:25 . Memory (MB): peak = 765.813 ; gain = 494.035
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 767.195 ; gain = 495.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tftg256-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:25 . Memory (MB): peak = 765.813 ; gain = 494.035
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 767.195 ; gain = 495.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:25 . Memory (MB): peak = 765.813 ; gain = 494.035
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 767.195 ; gain = 495.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:26 . Memory (MB): peak = 765.813 ; gain = 494.035
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 767.195 ; gain = 495.539
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -212,7 +212,7 @@ Detailed RTL Component Info :
 	   2 Input     12 Bit       Adders := 1     
 +---Registers : 
 	               12 Bit    Registers := 1     
-Module AM_Module 
+Module AM_Modulate 
 Detailed RTL Component Info : 
 +---Adders : 
 	   2 Input     14 Bit       Adders := 1     
@@ -232,7 +232,7 @@ Detailed RTL Component Info :
 	   2 Input     12 Bit       Adders := 1     
 +---Registers : 
 	               12 Bit    Registers := 1     
-Module FM_Module 
+Module FM_Modulate 
 Detailed RTL Component Info : 
 +---Adders : 
 	   2 Input     33 Bit       Adders := 1     
@@ -269,37 +269,37 @@ DSP Report: register Audio_Handle_u/Carry_fre_reg is absorbed into DSP Audio_Han
 DSP Report: operator Audio_Handle_u/Fre_word_r0 is absorbed into DSP Audio_Handle_u/Fre_word_r_reg.
 DSP Report: operator Audio_Handle_u/Carry_fre0 is absorbed into DSP Audio_Handle_u/Fre_word_r_reg.
 Why this net has no driver: _order_recur <const0>
-DSP Report: Generating DSP Audio_Handle_u/AM_Module_u/AM_wave_r0_reg, operation Mode is: (A2*B2)'.
-DSP Report: register B is absorbed into DSP Audio_Handle_u/AM_Module_u/AM_wave_r0_reg.
-DSP Report: register Audio_Handle_u/AM_Module_u/AM_Carry_r1_reg is absorbed into DSP Audio_Handle_u/AM_Module_u/AM_wave_r0_reg.
-DSP Report: register Audio_Handle_u/AM_Module_u/AM_wave_r0_reg is absorbed into DSP Audio_Handle_u/AM_Module_u/AM_wave_r0_reg.
-DSP Report: operator Audio_Handle_u/AM_Module_u/AM_wave_r00 is absorbed into DSP Audio_Handle_u/AM_Module_u/AM_wave_r0_reg.
-DSP Report: Generating DSP FM_Module_u/data_r2_reg, operation Mode is: (C+(A''*(B:0x69)')')'.
-DSP Report: register FM_Module_u/data_r0_reg is absorbed into DSP FM_Module_u/data_r2_reg.
-DSP Report: register FM_Module_u/wave_in_r_reg is absorbed into DSP FM_Module_u/data_r2_reg.
-DSP Report: register FM_Module_u/data_r0_reg is absorbed into DSP FM_Module_u/data_r2_reg.
-DSP Report: register FM_Module_u/data_r2_reg is absorbed into DSP FM_Module_u/data_r2_reg.
-DSP Report: register FM_Module_u/data_r1_reg is absorbed into DSP FM_Module_u/data_r2_reg.
-DSP Report: operator FM_Module_u/data_r2_reg0 is absorbed into DSP FM_Module_u/data_r2_reg.
-DSP Report: operator FM_Module_u/data_r0_reg0 is absorbed into DSP FM_Module_u/data_r2_reg.
-INFO: [Synth 8-3886] merging instance 'Audio_Handle_u/AM_Module_u/data_r0_reg[26]' (FDR) to 'Audio_Handle_u/AM_Module_u/data_r0_reg[27]'
-INFO: [Synth 8-3886] merging instance 'Audio_Handle_u/AM_Module_u/data_r1_reg[10]' (FDR) to 'Audio_Handle_u/AM_Module_u/data_r1_reg[11]'
+DSP Report: Generating DSP Audio_Handle_u/AM_Modulate_u/AM_wave_r0_reg, operation Mode is: (A2*B2)'.
+DSP Report: register B is absorbed into DSP Audio_Handle_u/AM_Modulate_u/AM_wave_r0_reg.
+DSP Report: register Audio_Handle_u/AM_Modulate_u/AM_Carry_r1_reg is absorbed into DSP Audio_Handle_u/AM_Modulate_u/AM_wave_r0_reg.
+DSP Report: register Audio_Handle_u/AM_Modulate_u/AM_wave_r0_reg is absorbed into DSP Audio_Handle_u/AM_Modulate_u/AM_wave_r0_reg.
+DSP Report: operator Audio_Handle_u/AM_Modulate_u/AM_wave_r00 is absorbed into DSP Audio_Handle_u/AM_Modulate_u/AM_wave_r0_reg.
+DSP Report: Generating DSP FM_Modulate_u/data_r2_reg, operation Mode is: (C+(A''*(B:0x69)')')'.
+DSP Report: register FM_Modulate_u/data_r0_reg is absorbed into DSP FM_Modulate_u/data_r2_reg.
+DSP Report: register FM_Modulate_u/wave_in_r_reg is absorbed into DSP FM_Modulate_u/data_r2_reg.
+DSP Report: register FM_Modulate_u/data_r0_reg is absorbed into DSP FM_Modulate_u/data_r2_reg.
+DSP Report: register FM_Modulate_u/data_r2_reg is absorbed into DSP FM_Modulate_u/data_r2_reg.
+DSP Report: register FM_Modulate_u/data_r1_reg is absorbed into DSP FM_Modulate_u/data_r2_reg.
+DSP Report: operator FM_Modulate_u/data_r2_reg0 is absorbed into DSP FM_Modulate_u/data_r2_reg.
+DSP Report: operator FM_Modulate_u/data_r0_reg0 is absorbed into DSP FM_Modulate_u/data_r2_reg.
+INFO: [Synth 8-3886] merging instance 'Audio_Handle_u/AM_Modulate_u/data_r0_reg[26]' (FDR) to 'Audio_Handle_u/AM_Modulate_u/data_r0_reg[27]'
+INFO: [Synth 8-3886] merging instance 'Audio_Handle_u/AM_Modulate_u/data_r1_reg[10]' (FDR) to 'Audio_Handle_u/AM_Modulate_u/data_r1_reg[11]'
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:31 . Memory (MB): peak = 765.813 ; gain = 494.035
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 767.195 ; gain = 495.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
 ---------------------------------------------------------------------------------
 
 ROM:
-+------------+---------------------------------------+---------------+----------------+
-|Module Name | RTL Object                            | Depth x Width | Implemented As | 
-+------------+---------------------------------------+---------------+----------------+
-|AM_Module   | wave_out_r                            | 256x14        | LUT            | 
-|FM_Module   | wave_out_r                            | 256x14        | LUT            | 
-|TOP         | Audio_Handle_u/AM_Module_u/wave_out_r | 256x14        | LUT            | 
-|TOP         | FM_Module_u/wave_out_r                | 256x14        | LUT            | 
-+------------+---------------------------------------+---------------+----------------+
++------------+-----------------------------------------+---------------+----------------+
+|Module Name | RTL Object                              | Depth x Width | Implemented As | 
++------------+-----------------------------------------+---------------+----------------+
+|AM_Modulate | wave_out_r                              | 256x14        | LUT            | 
+|FM_Modulate | wave_out_r                              | 256x14        | LUT            | 
+|TOP         | Audio_Handle_u/AM_Modulate_u/wave_out_r | 256x14        | LUT            | 
+|TOP         | FM_Modulate_u/wave_out_r                | 256x14        | LUT            | 
++------------+-----------------------------------------+---------------+----------------+
 
 
 DSP: Preliminary Mapping  Report (see note below)
@@ -325,13 +325,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:45 . Memory (MB): peak = 808.543 ; gain = 536.766
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:41 . Memory (MB): peak = 805.688 ; gain = 534.031
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:45 . Memory (MB): peak = 819.488 ; gain = 547.711
+Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:42 . Memory (MB): peak = 816.297 ; gain = 544.641
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -343,7 +343,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:45 . Memory (MB): peak = 845.000 ; gain = 573.223
+Finished Technology Mapping : Time (s): cpu = 00:00:34 ; elapsed = 00:00:42 . Memory (MB): peak = 841.930 ; gain = 570.273
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -367,7 +367,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:46 . Memory (MB): peak = 845.000 ; gain = 573.223
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:43 . Memory (MB): peak = 841.930 ; gain = 570.273
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -380,7 +380,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:46 . Memory (MB): peak = 845.000 ; gain = 573.223
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:43 . Memory (MB): peak = 841.930 ; gain = 570.273
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -392,25 +392,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:47 . Memory (MB): peak = 845.000 ; gain = 573.223
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:43 . Memory (MB): peak = 841.930 ; gain = 570.273
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:47 . Memory (MB): peak = 845.000 ; gain = 573.223
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:43 . Memory (MB): peak = 841.930 ; gain = 570.273
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:47 . Memory (MB): peak = 845.000 ; gain = 573.223
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:43 . Memory (MB): peak = 841.930 ; gain = 570.273
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:47 . Memory (MB): peak = 845.000 ; gain = 573.223
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:00:43 . Memory (MB): peak = 841.930 ; gain = 570.273
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -445,42 +445,42 @@ Report Cell Usage:
 +------+-----------+------+
 
 Report Instance Areas: 
-+------+-----------------+-------------+------+
-|      |Instance         |Module       |Cells |
-+------+-----------------+-------------+------+
-|1     |top              |             |   511|
-|2     |  AD9226_1       |AD9226       |    13|
-|3     |  AD9226_2       |AD9226_0     |    18|
-|4     |  AD9226_3       |AD9226_1     |    19|
-|5     |  Audio_Handle_u |Audio_Handle |   222|
-|6     |    AM_Module_u  |AM_Module    |   189|
-|7     |  CLK_Global_u   |CLK_Global   |     7|
-|8     |  FM_Module_u    |FM_Module    |   192|
-+------+-----------------+-------------+------+
++------+------------------+-------------+------+
+|      |Instance          |Module       |Cells |
++------+------------------+-------------+------+
+|1     |top               |             |   511|
+|2     |  AD9226_1        |AD9226       |    13|
+|3     |  AD9226_2        |AD9226_0     |    18|
+|4     |  AD9226_3        |AD9226_1     |    19|
+|5     |  Audio_Handle_u  |Audio_Handle |   222|
+|6     |    AM_Modulate_u |AM_Modulate  |   189|
+|7     |  CLK_Global_u    |CLK_Global   |     7|
+|8     |  FM_Modulate_u   |FM_Modulate  |   192|
++------+------------------+-------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:47 . Memory (MB): peak = 845.000 ; gain = 573.223
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:43 . Memory (MB): peak = 841.930 ; gain = 570.273
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 845.000 ; gain = 236.223
-Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:47 . Memory (MB): peak = 845.000 ; gain = 573.223
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:32 . Memory (MB): peak = 841.930 ; gain = 231.891
+Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:44 . Memory (MB): peak = 841.930 ; gain = 570.273
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 76 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 845.000 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 841.930 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
 41 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:50 . Memory (MB): peak = 845.000 ; gain = 586.250
+synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:47 . Memory (MB): peak = 841.930 ; gain = 583.094
 INFO: [Common 17-600] The following parameters have non-default value.
 general.maxThreads
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 845.000 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 841.930 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/prj/xilinx/template.runs/synth_1/TOP.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file TOP_utilization_synth.rpt -pb TOP_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Apr  3 15:55:56 2020...
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 10 20:21:17 2020...

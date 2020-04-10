@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date             : Fri Apr  3 15:57:55 2020
+| Date             : Fri Apr 10 20:23:25 2020
 | Host             : DESKTOP-8P8R3S1 running 64-bit major release  (build 9200)
 | Command          : report_power -file TOP_power_routed.rpt -pb TOP_power_summary_routed.pb -rpx TOP_power_routed.rpx
 | Design           : TOP
@@ -144,14 +144,14 @@ Table of Contents
 3.1 By Hierarchy
 ----------------
 
-+------------------+-----------+
-| Name             | Power (W) |
-+------------------+-----------+
-| TOP              |     0.156 |
-|   Audio_Handle_u |     0.003 |
-|     AM_Module_u  |     0.002 |
-|   CLK_Global_u   |     0.107 |
-|   FM_Module_u    |     0.028 |
-+------------------+-----------+
++-------------------+-----------+
+| Name              | Power (W) |
++-------------------+-----------+
+| TOP               |     0.156 |
+|   Audio_Handle_u  |     0.003 |
+|     AM_Modulate_u |     0.002 |
+|   CLK_Global_u    |     0.107 |
+|   FM_Modulate_u   |     0.028 |
++-------------------+-----------+
 
 

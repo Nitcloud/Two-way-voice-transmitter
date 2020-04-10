@@ -3,8 +3,8 @@
 Dec  7 2018
 00:33:28
 D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/prj/Xilinx/template.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
-D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/sim/DDS_Gen.v,1582021503,verilog,,D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/FM_Module.v,,DDS_Gen,,,,,,,,
-D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/sim/testbench.v,1586338684,verilog,,,,testbench,,,,,,,,
-D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/AM_Module.v,1585900264,verilog,,D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/Audio_Handle.v,,AM_Module,,,,,,,,
-D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/Audio_Handle.v,1585900243,verilog,,D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/sim/DDS_Gen.v,,Audio_Handle,,,,,,,,
-D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/FM_Module.v,1580807087,verilog,,D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/sim/testbench.v,,FM_Module,,,,,,,,
+D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/sim/DDS_Gen.v,1582021503,verilog,,D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/FM_Modulate.v,,DDS_Gen,,,,,,,,
+D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/sim/testbench.v,1586520782,verilog,,,,testbench,,,,,,,,
+D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/AM_Modulate.v,1586521648,verilog,,D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/Audio_Handle.v,,AM_Modulate,,,,,,,,
+D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/Audio_Handle.v,1586521515,verilog,,D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/sim/DDS_Gen.v,,Audio_Handle,,,,,,,,
+D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/FM_Modulate.v,1586422565,verilog,,D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/sim/testbench.v,,FM_Modulate,,,,,,,,

@@ -9,7 +9,7 @@ module AD9226
 
 parameter signed 	CH_offset =  27;
 
-reg  [11:0] 	wave_CH_buf;
+reg  [11:0] 	wave_CH_buf = 0;
 always@(posedge clk_in) begin
 	if(!rst_n)
 		wave_CH_buf <= 12'd0;

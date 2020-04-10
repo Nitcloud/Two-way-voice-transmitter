@@ -31,10 +31,10 @@ set_property target_language Verilog [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib {
   D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/AD9226.v
-  D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/AM_Module.v
+  D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/AM_Modulate.v
   D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/Audio_Handle.v
   D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/CLK_Global.v
-  D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/FM_Module.v
+  D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/src/FM_Modulate.v
   D:/project/FPGA/My_FPGA/TCL_project/Prj/Two-way-voice-transmitter/user/TOP.v
 }
 # Mark all dcp files as not used in implementation to prevent them from being
