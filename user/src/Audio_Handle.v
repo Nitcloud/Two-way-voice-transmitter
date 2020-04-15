@@ -21,7 +21,7 @@ AM_Modulate #(
     .clk_in(clk_in),
     .RST(RST),
     .wave_in(Audio_CH2),
-    .module_deep(16'd32768),       //(2^16-1)*percent
+    .modulate_deep(16'd32768),       //(2^16-1)*percent
     .center_fre(32'd858993),    //(fre*4294967296)/clk_in/1000000  //10K
     .AM_wave(AM_wave)
 );
